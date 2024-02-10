@@ -1,0 +1,148 @@
+.header {
+    padding: 20px 0;
+    background-color: #232536;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list {
+    display: flex;
+    gap: 40px;
+}
+
+.header__logo {
+    color: #fff;
+}
+
+.header__link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.header__item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__phone {
+    color: #3d4a39;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+
+    &::before {
+        content: "";
+        width: 22px;
+        height: 22px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 7px;
+        background-repeat: no-repeat;
+        background-image: url("../img/phone.svg");
+    }
+}
+
+.header__btn_block {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header__menu {
+    width: 34px;
+    height: 34px;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-image: url("../img/menu.svg");
+    background-position: center;
+    border: none;
+    margin-right: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__menu {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .header__logo {
+        max-width: 100px;
+        margin-left: 30px;
+    }
+}
+
+
+
+.career__fins {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hired__people {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+}
+.hired__child {
+    font-size: 40px;
+    text-align: center;
+}
+
+.true_rich {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.true_richs {
+    text-align: center;
+    font-size: 16px;
+}
+
+.careers {
+    max-width: 800px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.open__positions {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5%;
+}
+
+.open__positionss {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 1%;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .careers {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .hired__people, .hired__child {
+        font-size: 35px;
+        text-align: center;
+    }
+}
+
+
+
